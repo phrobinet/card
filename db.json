@@ -6,10 +6,10 @@
       "back": {
         "title": ".findIndex()",
         "code": [
-          { "lg1": "const array1 = [5, 12, 8, 130, 44];" },
-          { "lg2": "const isLargeNumber = (element) => element > 13;" },
-          { "lg3": "console.log(array1.findIndex(isLargeNumber));" },
-          { "lg4": "// expected output: 3" }
+          "const array1 = [5, 12, 8, 130, 44];",
+          "const isLargeNumber = (element) => element > 13;",
+          "console.log(array1.findIndex(isLargeNumber));",
+          "// expected output: 3"
         ]
       }
     },
@@ -19,11 +19,11 @@
       "back": {
         "title": ".concat()",
         "code": [
-          { "lg1": "const array1 = ['a', 'b', 'c']" },
-          { "lg2": "const array2 = ['d', 'e', 'f'];" },
-          { "lg3": "const array3 = array1.concat(array2);" },
-          { "lg4": "console.log(array3);" },
-          { "lg5": "// expected output: Array ['a', 'b', 'c', 'd', 'e', 'f']" }
+          "const array1 = ['a', 'b', 'c']",
+          "const array2 = ['d', 'e', 'f'];",
+          "const array3 = array1.concat(array2);",
+          "console.log(array3);",
+          "// expected output: Array ['a', 'b', 'c', 'd', 'e', 'f']"
         ]
       }
     }
