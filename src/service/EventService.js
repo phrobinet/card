@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3',
+  baseURL: 'https://my-json-server.typicode.com/phrobinet/card',
   withCredentials: false,
   headers: {
     Accept: 'application/json',
@@ -10,7 +10,10 @@ const apiClient = axios.create({
 })
 
 export default {
-  getArrayList() {
-    return apiClient.get('/events')
+  getEvents() {
+    return apiClient.get('/Liste.json')
+  },
+  getEvent(id) {
+    return apiClient.get('/events/' + id)
   }
 }
