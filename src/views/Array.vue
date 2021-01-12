@@ -1,8 +1,9 @@
 <template>
   <div>
-    <div v-for="item in items" :key="item.id">
-      {{ item.title }}
-    </div>
+    <p v-for="item in items" :key="item.id">
+      {{ item }}
+    </p>
+    <!-- <p>{{ items.data }}</p> -->
   </div>
 </template>
 
@@ -19,7 +20,7 @@ export default {
   created() {
     EventService.getEvents()
       .then(response => {
-        this.items = response.data
+        this.items = response
       })
       .catch(error => {
         console.log(error)
