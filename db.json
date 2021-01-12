@@ -1,6 +1,7 @@
 {
   "array": [
     {
+      "id": 1,
       "front": "La méthode utilisé afin de fusionner un ou plusieurs tableaux en les concaténant. Cette méthode ne modifie pas les tableaux existants, elle renvoie un nouveau tableau qui est le résultat de l'opération.",
       "back": [
         {
@@ -18,6 +19,7 @@
       ]
     },
     {
+      "id": 2,
       "front": "La méthode renvoie l'indice du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.",
       "back": [
         {
