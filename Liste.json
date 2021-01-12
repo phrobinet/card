@@ -1,0 +1,37 @@
+{
+  "array": [
+    {
+      "front": "La méthode utilisé afin de fusionner un ou plusieurs tableaux en les concaténant. Cette méthode ne modifie pas les tableaux existants, elle renvoie un nouveau tableau qui est le résultat de l'opération.",
+      "back": [
+        {
+          "title": ".concat()",
+          "code": [
+            {
+              "lg1": "const array1 = ['a', 'b', 'c']",
+              "lg2": "const array2 = ['d', 'e', 'f'];",
+              "lg3": "const array3 = array1.concat(array2);",
+              "lg4": "console.log(array3);",
+              "lg5": "// expected output: Array ['a', 'b', 'c', 'd', 'e', 'f']"              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "front": "La méthode renvoie l'indice du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.",
+      "back": [
+        {
+          "title": ".findIndex()",
+          "code": [
+            {
+              "lg1": "const array1 = [5, 12, 8, 130, 44];",
+              "lg2": "const isLargeNumber = (element) => element > 13;",
+              "lg3": "console.log(array1.findIndex(isLargeNumber));",
+              "lg4": "// expected output: 3"     
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
